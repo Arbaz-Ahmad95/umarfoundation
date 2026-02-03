@@ -39,7 +39,7 @@ export default function Footer() {
 
                 {/* Meta & Admin */}
                 <div className="md:text-right flex flex-col md:items-end gap-3 pt-12 md:pt-0 border-t border-gray-50 md:border-t-0">
-                    <div className="text-gray-400 text-sm font-black tracking-tight">© 2024 Umar Foundation. All Rights Reserved.</div>
+                    <div className="text-gray-400 text-sm font-black tracking-tight">© 2026 Arbaz Ahmad. All Rights Reserved.</div>
                     <Link href="/admin" className="text-[10px] uppercase font-black tracking-widest text-primary/30 hover:text-primary transition-all border-b border-primary/5 hover:border-primary/20 pb-1">Admin Dashboard</Link>
                     <p className="text-gray-300 text-[10px] mt-4 font-medium uppercase tracking-[0.2em]">Crafted for Impact</p>
                 </div>

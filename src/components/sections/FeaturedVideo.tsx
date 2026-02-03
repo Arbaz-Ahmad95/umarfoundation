@@ -59,7 +59,8 @@ export default function FeaturedVideo() {
                                 className="w-full h-full"
                                 frameBorder="0"
                                 scrolling="no"
-                                allowTransparency={true}
+                                // @ts-expect-error - allowtransparency is a non-standard attribute required for some embeds
+                                allowtransparency="true"
                                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                             ></iframe>
 
