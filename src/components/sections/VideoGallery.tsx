@@ -54,7 +54,7 @@ export default function VideoGallery() {
             {/* Horizontal Carousel */}
             <div
                 ref={scrollRef}
-                className="flex gap-4 md:gap-8 overflow-x-auto px-6 md:px-12 no-scrollbar pb-12 snap-x snap-mandatory touch-pan-x"
+                className="flex gap-4 md:gap-8 overflow-x-auto px-6 md:px-12 no-scrollbar pb-12 snap-x snap-mandatory"
             >
                 {posts.map((post) => {
                     const isInsta = isInstagramUrl(post.videoUrl);
