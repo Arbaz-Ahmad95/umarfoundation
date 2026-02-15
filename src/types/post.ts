@@ -6,4 +6,5 @@ export interface Post {
     imageUrl: string;
     date: string;
     videoUrl: string;
+    section?: 'impact' | 'recent';
 }

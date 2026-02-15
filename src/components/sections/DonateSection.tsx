@@ -40,11 +40,11 @@ export default function DonateSection() {
                         </div>
                         <div className="flex justify-between items-center border-b border-gray-100 pb-4 group/item">
                             <span className="text-gray-400 font-black text-[10px] md:text-xs uppercase tracking-widest">Account Number</span>
-                            <span className="font-bold text-base md:text-xl group-hover/item:text-secondary transition-colors">6238000100062319</span>
+                            <span className="font-bold text-base md:text-xl group-hover/item:text-secondary transition-colors">***********</span>
                         </div>
                         <div className="flex justify-between items-center border-b border-gray-100 pb-4 group/item">
                             <span className="text-gray-400 font-black text-[10px] md:text-xs uppercase tracking-widest">IFSC Code</span>
-                            <span className="font-bold text-base md:text-xl group-hover/item:text-secondary transition-colors">PUNB0623800</span>
+                            <span className="font-bold text-base md:text-xl group-hover/item:text-secondary transition-colors">******</span>
                         </div>
                     </div>
 

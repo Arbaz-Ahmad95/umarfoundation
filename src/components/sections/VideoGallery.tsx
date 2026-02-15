@@ -13,7 +13,7 @@ export default function VideoGallery() {
     useEffect(() => {
         fetch('/api/posts')
             .then(res => res.json())
-            .then(data => setPosts(data.filter((p: Post) => p.videoUrl)));
+            .then(data => setPosts(data.filter((p: Post) => p.section === 'impact')));
     }, []);
 
     const scroll = (direction: 'left' | 'right') => {
@@ -74,7 +74,8 @@ export default function VideoGallery() {
                                             className="w-full h-full scale-[1.05] grayscale-[20%] opacity-70 group-hover:opacity-100 group-hover:scale-100 group-hover:grayscale-0 transition-all duration-700 pointer-events-none"
                                             frameBorder="0"
                                             scrolling="no"
-                                            allowTransparency={true}
+                                            // @ts-expect-error -- react-dom doesn't recognize allowTransparency but it is required
+                                            allowtransparency="true"
                                         ></iframe>
 
                                         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 pointer-events-none">
@@ -120,7 +121,8 @@ export default function VideoGallery() {
                                 className="w-full h-full"
                                 frameBorder="0"
                                 scrolling="no"
-                                allowTransparency={true}
+                                // @ts-expect-error -- react-dom doesn't recognize allowTransparency but it is required
+                                allowtransparency="true"
                                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                             ></iframe>
                         </div>
